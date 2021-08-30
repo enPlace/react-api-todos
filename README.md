@@ -1,7 +1,7 @@
 # React Todo List
 
 ## About 
-This project uses {JSON} Placeholder, a free fake API for testing and prototying. It was made as an exercise in 
+This project uses {JSON} Placeholder, a free fake API for testing and prototying. It is simple, with no frills, but was made as an exercise in 
 destructuring, routing, and making API calls in React. 
 
 
