@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# React Todo List
+
+## About 
+This project uses {JSON} Placeholder, a free fake API for testing and prototying. It was made as an exercise in 
+destructuring, routing, and making API calls in React. 
+
+
+<h3 align="left">Languages and Tools:</h3>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
+  <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="60" height="60"/> </a> <a href="https://webpack.js.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="60" height="60"/> </a><a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactrouter.com/" target="_blank"> <img src="https://raw.githubusercontent.com/maman/react-router-legacy/HEAD/logo/vertical@2x.png" alt="react-router" width="80" height="40"/> </a> <a href="https://material-ui.com/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg" alt="Material-Ui" width="80" height="40"/> </a>  <a href="https://axios-http.com/docs/intro" target="_blank"> <img src="https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png" alt="Axios" width="80" height="40"/> </a> </p>
+
+## ScreenShots
+### The main page gets the JSON file from the JSONPlaceholder API and formats the 200 sample tasks. 
+<img src="./TodoList.png" alt="react" width="400"/>
+
+### Clicking on a task routes to a separate component using { useHistory } from "react-router." The component makes another call to the API and displays a formatted message. 
+- Green for complete
+<img src="./completed.png" alt="react" width="400"/>
+
+- Red for incomplete
+<img src="./notComplete.png" alt="react" width="400"/>
+
 
 ## Available Scripts
 
