@@ -23,7 +23,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <img src="./notComplete.png" alt="react" width="400"/>
 
 ### Using conditional rendering, displays a progress loader from Material-Ui
-<img src="./progress.png" alt="react" width="400"/>
+<img src="./progress.png" alt="react" width="100"/>
 
 ## Available Scripts
 
