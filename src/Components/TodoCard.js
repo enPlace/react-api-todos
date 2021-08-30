@@ -1,8 +1,10 @@
+import { useHistory } from "react-router";
 const TodoCard = ({ todo }) => {
-  const { title, completed } = todo;
+  const { id, title, completed } = todo;
+  let history = useHistory();
   return (
+          
     <div
-
       style={{
         backgroundColor: "grey",
         margin: "10px",
@@ -10,6 +12,7 @@ const TodoCard = ({ todo }) => {
         width: "150px",
         borderRadius: "10px",
       }}
+      onClick={() => history.push(`/${id}`)}
     >
       <h3>Task:</h3>
       <h5>{title}</h5>
