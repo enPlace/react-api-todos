@@ -15,13 +15,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### The main page gets the JSON file from the JSONPlaceholder API and formats the 200 sample tasks. 
 <img src="./TodoList.png" alt="react" width="400"/>
 
-### Clicking on a task routes to a separate component using { useHistory } from "react-router." The component makes another call to the API and displays a formatted message. 
+### Clicking on a task routes to a separate component using { useHistory } from "react-router." The component makes another call to the API and displays a formatted message using conditional inline styling. 
 - Green for complete
 <img src="./completed.png" alt="react" width="400"/>
 
 - Red for incomplete
 <img src="./notComplete.png" alt="react" width="400"/>
 
+### Using conditional rendering, displays a progress loader from Material-Ui
+<img src="./progress.png" alt="react" width="400"/>
 
 ## Available Scripts
 
