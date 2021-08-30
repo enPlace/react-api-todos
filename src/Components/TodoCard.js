@@ -12,7 +12,7 @@ const TodoCard = ({ todo }) => {
         width: "150px",
         borderRadius: "10px",
       }}
-      onClick={() => history.push(`/${id}`)}
+      onClick={() => history.push(`/react-api-todos/${id}`)}
     >
       <h3>Task:</h3>
       <h5>{title}</h5>

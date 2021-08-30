@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path ="/" children = {<AllTodos/>}></Route>
-          <Route path ="/:id" children = {<Todo/>}></Route>
+          <Route exact path ="/react-api-todos" children = {<AllTodos/>}></Route>
+          <Route exact path ="/react-api-todos/:id" children = {<Todo/>}></Route>
         </Switch>
       </Router>
     </div>
