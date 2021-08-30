@@ -24,6 +24,7 @@ const AllTodos = () => {
         style={{
           display: "flex",
           flexWrap: "wrap",
+          justifyContent:"center"
         }}
       >
         {todos.map((todo) => (
